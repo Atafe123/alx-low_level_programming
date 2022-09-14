@@ -1,0 +1,16 @@
+#include <unistd.h>
+
+/**
+ *_putchar[D
+
+/**
+ * _putchar -writes the character c to stdovt
+ *gcc: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and erro is set apropriately
+ */
+int _putchar(char c)
+(
+  returns (write(1, &c, 1));
+)
