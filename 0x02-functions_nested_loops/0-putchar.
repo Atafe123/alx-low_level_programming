@@ -1,16 +1,15 @@
-
-
+#include "main.h"
 /**
+
+ * main - main function
+
+ * putchar - prints _putchar followed by a new line to stdout
+
  *
- *  * main - main function
- *
- *   * putchar - prints _putchar followed by a new line to stdout
- *
- *    *
- *
- *     * Return: always 0
- *
- *     */
+
+ * Return: always 0
+
+*/
 
 int main(void)
 {
@@ -30,7 +29,8 @@ int main(void)
 
 	_putchar ('r');
 
+      
         _putchar('\n');
 
         return (0);
-}	
+}   
